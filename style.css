@@ -1,0 +1,55 @@
+body{
+	margin: 0px auto;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	background: #ede3bf;
+}
+div#losowanie{
+	color: #cd1717;
+	font-size: 50px;
+	padding: 4px;
+}
+div#wylosowane1, div#wylosowane2, div#wylosowane3, div#wylosowane4, div#wylosowane5{
+	color: blue;
+	border: 1px solid #d1c258; 
+	background-color: #f8f1b9;
+	display: table-cell;
+	min-width: 70px;
+}
+div#tabela{
+	margin-left: auto;
+	margin-right: auto;
+text-align: center;
+	margin: 4px;
+	display: table;
+	border: 1px solid #000;
+}
+
+div#wiersz,
+div#wiersz1,
+div#wiersz2,
+div#wiersz3,
+div#wiersz4,
+div#wiersz5{
+	display: table-row;
+}
+
+#komorka,
+div#komorka00, div#komorka01, div#komorka02, div#komorka03, div#komorka04,
+div#komorka10, div#komorka11, div#komorka12, div#komorka13, div#komorka14,
+div#komorka20, div#komorka21, div#komorka22, div#komorka23, div#komorka24,
+div#komorka30, div#komorka31, div#komorka32, div#komorka33, div#komorka34,
+div#komorka40, div#komorka41, div#komorka42, div#komorka43, div#komorka44{
+	color: brown;
+	border: 1px solid #d1c258; 
+	background-color: #f0d100;
+	font-style: bold;
+	font-size: 60px;
+	padding: 4px;
+	display: table-cell;
+}
+#duzelitery{
+	font-size: 40px;
+}
