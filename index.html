@@ -1,0 +1,119 @@
+<html>
+  <head>
+    <title>BINGO</title>
+    <link rel="stylesheet" href="style.css">
+    <meta content="">
+    <style></style>
+    
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript" src="skrypt.js"></script>
+  </head>
+  <body onload="generujKupon(); losuj(); pokazWylosowane();">
+	  <script type="text/javascript">
+
+	$(document).ready(function() {
+		$("#cos").click(function() {
+			$("#losowanie").animate({"wyl1": "+=50px"}, "slow");
+		});
+	});
+
+	</script>
+	<div id="cos">asaasd</div><br />
+	  
+	<div id="losowanie">
+		<div id="wylosowane1"><span id="wyl1">.</span></div>
+		<div id="wylosowane2"><span id="wyl2">.</span></div>
+		<div id="wylosowane3"><span id="wyl3">.</span></div>
+		<div id="wylosowane4"><span id="wyl4">.</span></div>
+		<div id="wylosowane5"><span id="wyl5">.</span></div>
+	</div>
+	<div id="tabela">
+		<div id="wiersz1">
+			<div id="komorka00" onclick="kliknieto(this)">
+				asd1
+			</div>
+			<div id="komorka01" onclick="kliknieto(this)">
+				asd2
+			</div>
+			<div id="komorka02" onclick="kliknieto(this)">
+				asd3
+			</div>
+			<div id="komorka03" onclick="kliknieto(this)">
+				asd4
+			</div>
+			<div id="komorka04" onclick="kliknieto(this)">
+				asd5
+			</div>
+		</div>
+		<div id="wiersz2">
+			<div id="komorka10" onclick="kliknieto(this)">
+				asd1
+			</div>
+			<div id="komorka11" onclick="kliknieto(this)">
+				asd2
+			</div>
+			<div id="komorka12" onclick="kliknieto(this)">
+				asd3
+			</div>
+			<div id="komorka13" onclick="kliknieto(this)">
+				asd4
+			</div>
+			<div id="komorka14" onclick="kliknieto(this)">
+				asd5
+			</div>
+		</div>
+		<div id="wiersz3">
+			<div id="komorka20" onclick="kliknieto(this)">
+				asd1
+			</div>
+			<div id="komorka21" onclick="kliknieto(this)">
+				asd2
+			</div>
+			<div id="komorka22" onclick="kliknieto(this)">
+				asd3
+			</div>
+			<div id="komorka23" onclick="kliknieto(this)">
+				asd4
+			</div>
+			<div id="komorka24" onclick="kliknieto(this)">
+				asd5
+			</div>
+		</div>
+		<div id="wiersz4">
+			<div id="komorka30" onclick="kliknieto(this)">
+				asd1
+			</div>
+			<div id="komorka31" onclick="kliknieto(this)">
+				asd2
+			</div>
+			<div id="komorka32" onclick="kliknieto(this)">
+				asd3
+			</div>
+			<div id="komorka33" onclick="kliknieto(this)">
+				asd4
+			</div>
+			<div id="komorka34" onclick="kliknieto(this)">
+				asd5
+			</div>
+		</div>
+		<div id="wiersz5">
+			<div id="komorka40" onclick="kliknieto(this)">
+				1
+			</div>
+			<div id="komorka41" onclick="kliknieto(this)">
+				2
+			</div>
+			<div id="komorka42" onclick="kliknieto(this)">
+				3
+			</div>
+			<div id="komorka43" onclick="kliknieto(this)">
+				4
+			</div>
+			<div id="komorka44" onclick="kliknieto(this)">
+				5
+			</div>
+		</div>
+	</div>
+	<button onClick="sprawdzCzyBingo()"><span id="duzelitery">BINGO</font></button>
+  </body>
+</html>
